@@ -6,6 +6,10 @@
   box-shadow: 0 0 50px rgba(18, 20, 160, 0.8);
 }
 
+select:hover {
+  cursor:pointer;
+}
+
 @keyframes fadeInOut {
   0%,
   100% {
