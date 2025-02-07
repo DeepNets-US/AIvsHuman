@@ -6,7 +6,6 @@
     <title>AI or Human?</title>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./static/animations.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
@@ -60,7 +59,7 @@
           </div>
 
           <div class="flex items-center gap-4">
-            <select id="modelSelect" class="glass px-4 py-2 rounded-lg">
+            <select id="modelSelect" class="glass px-4 py-2 rounded-lg" disabled>
               <option class="text-black bg-white/10" value="model1">
                 ResNet50V2
               </option>
@@ -72,6 +71,7 @@
               type="button"
               id="askAI"
               class="px-4 py-2 rounded-lg hover:bg-white/20 askAIAni"
+              disabled
             >
               <span class="fold"></span>
               <div class="points_wrapper">
