@@ -51,3 +51,7 @@ select:hover {
 .image-container:hover .close-button {
   opacity: 1;
 }
+
+button:disabled, select:disabled {
+  cursor: not-allowed;
+}
